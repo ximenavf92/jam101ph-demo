@@ -7,3 +7,7 @@
   command = "eleventy --serve --quiet"
   functions = "api"
   publish = "_site"
+
+  [[redirects]]
+    from = "/info"
+    to = "/about"
