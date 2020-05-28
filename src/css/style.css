@@ -54,6 +54,17 @@ h1, h2, h3 {
 }
 h1 {
   font-size: 3rem;
+  line-height: .75em;
+  text-transform: capitalize;
+}
+
+h1 em {
+  font-size: .35em;
+  text-transform: uppercase;
+  letter-spacing: .075em;
+  background-color: var(--theme-color);
+  padding: .35em .75em .25em;
+  color: #fff;
 }
 
 h2 {
@@ -104,6 +115,8 @@ a.naked:focus {
 
 .product img {
   width: 30%;
+  box-shadow: 1px 2px 8px 2px #0000001a;
+  border-radius: 5px;
 }
 .product .info {
   width: 65%;
