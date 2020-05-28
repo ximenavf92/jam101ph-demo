@@ -34,8 +34,36 @@
       </div>
 
     {% endfor %}
-
     </section>
+    <!-- Contact Us -->
+    <section class=" contact-section">
+      <h2>Contact Us</h2>
+      <form name="contact" method="POST" data-netlify="true">
+          <p class="contact-fname">
+              <label>First Name<br />
+                  <input type="text" name="first-name" /></label>
+          </p>
+          <p class="contact-lname">
+              <label>Last Name<br />
+                  <input type="text" name="last-name" /></label>
+          </p>
+          <p class="contact-email">
+              <label> Email<br />
+                  <input type="email" name="email" /></label>
+          </p>
+          <p class="contact-phone">
+              <label> Phone Number<br />
+                  <input type="phone" name="phone" /></label>
+          </p>
+          <p class="contact-message">
+              <label>Message<br />
+                  <textarea name="message"></textarea></label>
+          </p>
+          <p class="contact-submit">
+              <button type="submit" class="primary-button">Submit</button>
+          </p>
+      </form>
+</section><!-- End Contact Us -->
   </main>
   <div class="tint">
     <footer>
