@@ -1,0 +1,16 @@
+{
+  "prod-cat-outfit-lion": {
+    "name": "Cat lion mane costume",
+    "rrp": "100.00",
+    "image": "product-cat-lion.jpg",
+    "description": "Dress your cat up as a lion and make it hate you while it looks cool.",
+    "url": "https://www.amazon.co.uk/Bello-Luna-Adjustable-Comfortable-Halloween/dp/B075WSX6BW/"
+  },
+  "prod-cat-outfit-bunny" : {
+    "name": "Cat bunny suit",
+    "rrp": "100.00",
+    "image": "product-cat-bunny.jpg",
+    "description": "Dress your cat up as a bunny and make it hate you.",
+    "url": "https://www.amazon.co.uk/Legendog-Costume-Outfit-Adjustable-Cats-Daily/dp/B07L5H8NQM"
+  }
+}
