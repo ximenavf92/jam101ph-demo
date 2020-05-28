@@ -4,8 +4,7 @@ module.exports = function(eleventyConfig) {
   const {
     DATA_CONTEXT
     CONTEXT
-    = process.env
-  }
+  } = process.env
 
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/images");
